@@ -6,6 +6,7 @@ var counter = ref(0);
 
 <template>
   <div>
+    
     <h1>{{ counter }}</h1>
     <button @click="--counter">-</button>
     <button @click="++counter">+</button>
